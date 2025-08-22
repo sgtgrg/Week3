@@ -1,0 +1,31 @@
+YOOBEE COLLEGE
+
+Project Scope:
+
+Yoobee College is a renowned institute that is rapidly growing and needs a structured database to store and handle academic data. The new database helps to manage and store database of students, lecturers, courses, classes and enrollment stats and grades. This database helps the college to store student details, assign lecturers to courses, organize class schedules and track student enrollments. In this way, the college can run smoothly and store all the academic information securely in one place. 
+
+Main entities in the database:
+
+1.Student
+
+Attributes: StudentID (PK), FullName, DOB, Email, Phone, Address.
+
+2.Lecturer
+
+Attributes: LecturerID (PK), FullName, Email, Phone, Department.
+
+3.Course
+
+Attributes: CourseID (PK), CourseName, Department.
+
+4.Class
+
+Attributes: ClassID (PK), CourseID (FK), LecturerID (FK), RoomNo, Schedule.
+
+5.Enrollment
+
+Attributes: EnrollmentID (PK), StudentID (FK), ClassID (FK), Grades
+
+
+
+

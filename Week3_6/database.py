@@ -4,7 +4,6 @@ DB_NAME = "yoobee.db"
 
 def create_connection():
     conn = sqlite3.connect(DB_NAME)
-    # Always enforce foreign keys
     conn.execute("PRAGMA foreign_keys = ON;")
     return conn
 
